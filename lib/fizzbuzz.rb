@@ -8,7 +8,7 @@ class Integer
     elsif self % 5 == 0
       "buzz"
     else
-      "1"
+      "#{self}"
     end
   end
 
