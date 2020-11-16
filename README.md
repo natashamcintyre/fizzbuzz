@@ -1,6 +1,7 @@
 # fizzbuzz TDD
 
-Returns number, fizz, buzz or fizzbuzz for integers. My first practice of pair programming and TDD.
+My first practice of pair programming and TDD.
+fizzbuzz.rb returns the number, "fizz", "buzz" or "fizzbuzz" for integers. 
 
 ## How to Use ##
 
@@ -12,7 +13,7 @@ eg 3.fizzbuzz ==> "fizz"
 
 ## Approach ##
 
-Cathal and I decided to approach this problem using the 'change the message' pair programming technique. We worked our way through the Makers reading material on TDD, which all seemed a bit alien at first. Slowly but surely, we got into the rhythm of writing the tests, rspec, and amending the code accordingly. We found it hard to know whether the steps we were taking were the right size so I'm sure we still have much to learn there.
+A shout out to Cathal Lavelle for pairing with me on this. We decided to approach this problem using the 'change the message' pair programming technique. We worked our way through the Makers reading material on TDD, which all seemed a bit alien at first. Slowly but surely, we got into the rhythm of writing the tests, rspec, and amending the code accordingly. We found it hard to know whether the steps we were taking were the right size so I'm sure we still have much to learn there.
 
 The 'change the message' approach turned out to be more like 'ping pong', as we found each problem to be relatively straightforwards to fix. Discussion arose around how to incorporate the "fizzbuzz" response. Should it be its own 'if' statement, or would it be okay to nest it inside the "fizz" 'if'? We decided to give it its own 'if' statement as we felt that would be easier for anyone looking at the code to understand.
 
